@@ -1,8 +1,11 @@
+import Link from "next/link";
 import { ButtonRed } from "./styled";
 
 function AdvertiseButton() {
   return (
-    <ButtonRed>Advertise</ButtonRed>
+    <Link href={'cadastro'}>
+      <ButtonRed>Advertise</ButtonRed>
+    </Link>
   )
 }
 

@@ -7,6 +7,10 @@ const nextConfig = {
       '@mui/styled-engine': '@mui/styled-engine-sc',
     };
     return config;
+  },
+  compiler: {
+    // Enables the styled-components SWC transform
+    styledComponents: true
   }
 };
 

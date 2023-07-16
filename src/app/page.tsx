@@ -1,5 +1,5 @@
 "use client"
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import LoopBar from "../components/LoopBar";
 import LoopLogo from "../components/LandingPage/LoopLogo";
 import AdvertiseButton from "../components/LandingPage/AdvertiseButton";
